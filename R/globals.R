@@ -1,0 +1,15 @@
+utils::globalVariables(c(
+    "width",
+    "pos",
+    "median",
+    "sd",
+    "count",
+    "score",
+    "qt",
+    "se",
+    "colData",
+    "rowData",
+    "assay",
+    "lowCI",
+    "highCI"
+))
