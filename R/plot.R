@@ -4,6 +4,7 @@
 #' `ggplot` plot which can be further customized using `ggplot2` functions.
 #'
 #' @param x an AggregatedCoverage object
+#' @return a ggplot2 plot
 #'
 #' @import ggplot2
 #' @export
