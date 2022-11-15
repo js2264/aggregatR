@@ -8,7 +8,7 @@
 #'   boundaries around the center of `GRanges` provided as input.
 
 .parseBigWig <- function(file, granges) {
-    cov <- rtracklayer::import(file, as = "Rle")
+    cov <- rtracklayer::import.bw(file, as = "Rle")
     l <- .filterGRanges(list(coverage = cov, features = granges))
     sub_granges <- l[['features']]
     cov[sub_granges] |>
